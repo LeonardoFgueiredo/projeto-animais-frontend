@@ -12,5 +12,16 @@ export const products: IAnimal[] = [
     state: 'SP',
     adopted: false,
   },
+  {
+    id: 2,
+    name: 'Farinha',
+    img: 'assets/gato.jpg',
+    breed: 'Vira lata',
+    type: 'Gato',
+    gender: 'Fêmea',
+    city: 'Barra Bonita',
+    state: 'SP',
+    adopted: false,
+  },
 
 ];

@@ -5,7 +5,7 @@ import CardAnimal from '../CardAnimal'
 
 export default function ListCardAnimal() {
   return (
-    <div>
+    <div className={styles.list}>
         {products.map(animal => (
           <CardAnimal key={animal.id} animal={animal} />
         ))}
